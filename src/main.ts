@@ -8,7 +8,7 @@ async function bootstrap() {
 
 	// Обновленная настройка CORS
 	app.enableCors({
-		origin: 'http://localhost:5173', // или использовать true для разрешения всех источников
+		origin: 'https://frontend-english-school-hbr7dgnm8-xhetsos-projects.vercel.app/', // или использовать true для разрешения всех источников
 		credentials: true,
 		methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 		allowedHeaders: 'Content-Type, Accept, Authorization', // Добавить Authorization
