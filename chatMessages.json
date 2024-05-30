@@ -1,0 +1,32 @@
+[
+  {
+    "date": "31.05.2024",
+    "time": "03:49",
+    "content": "Cәлем",
+    "sender": {
+      "userId": "665902077afbef16b5d8f9bb",
+      "name": "Arman",
+      "surname": "Oralbekov"
+    },
+    "recipient": {
+      "id": "6658d1517afbef16b5d8f8ab",
+      "name": "Sofia",
+      "surname": "English"
+    }
+  },
+  {
+    "date": "31.05.2024",
+    "time": "04:02",
+    "content": "Cәлем",
+    "sender": {
+      "userId": "6658d1517afbef16b5d8f8ab",
+      "name": "Sofia",
+      "surname": "English"
+    },
+    "recipient": {
+      "id": "665902077afbef16b5d8f9bb",
+      "name": "Arman",
+      "surname": "Oralbekov"
+    }
+  }
+]
