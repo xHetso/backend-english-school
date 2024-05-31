@@ -2,18 +2,18 @@ import { NestFactory } from '@nestjs/core'
 import { AppModule } from './app.module'
 
 async function bootstrap() {
-	const app = await NestFactory.create(AppModule)
+    const app = await NestFactory.create(AppModule)
 
-	app.setGlobalPrefix('api')
+    app.setGlobalPrefix('api')
 
-	// Обновленная настройка CORS
-	app.enableCors({
-		origin: 'https://frontend-english-school-pebb-osnonido2-xhetsos-projects.vercel.app', // или использовать true для разрешения всех источников
-		credentials: true,
-		methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-		allowedHeaders: 'Content-Type, Accept, Authorization', // Добавить Authorization
-	})
+    // Разрешить все источники
+    app.enableCors({
+        origin: true,  // Разрешить все источники
+        credentials: true,
+        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+        allowedHeaders: 'Content-Type, Accept, Authorization',
+    })
 
-	await app.listen(4200)
+    await app.listen(4200)
 }
 bootstrap()
