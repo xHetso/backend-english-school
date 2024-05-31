@@ -14,6 +14,6 @@ async function bootstrap() {
 		allowedHeaders: 'Content-Type, Accept, Authorization', // Добавить Authorization
 	})
 
-	await app.listen(4200)
+	await app.listen(4000)
 }
 bootstrap()
